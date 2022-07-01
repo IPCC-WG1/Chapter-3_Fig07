@@ -5,7 +5,7 @@ ATTRIBUTABLE WARMING ESTIMATES
 Figure number: Figure 3.7
 From the IPCC Working Group I Contribution to the Sixth Assessment Report: Chapter 3
 
-![Figure 3.7](../images/ar6_wg1_chap3_fig3_7_attributable_warming_estimates.png?raw=true)
+![Figure 3.7](ar6_wg1_chap3_fig3_7_attributable_warming_estimates.png?raw=true)
 
 
 Description:
@@ -27,14 +27,14 @@ Publication sources:
 
 ESMValTool Branch:
 ------------------
-- ESMValTool-AR6-OriginalCode-FinalFigures: [ar6_chapter_3_nathan](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/tree/ar6_chapter_3_nathan)
+- ESMValTool-AR6-OriginalCode-FinalFigures: [ar6_chapter_3_nathan](https://github.com/ipcc-wgi/ESMValTool-AR6-OriginalCode-FinalFigures/tree/ar6_chapter_3_nathan)
 
 
 Recipe & diagnostics:
 ---------------------
-Recipe used: [recipes/recipe_gsat_attribute.yml](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/ar6_chapter_3_nathan/esmvaltool/recipes/recipe_gsat_attribute.yml)
+Recipe used: [recipes/recipe_gsat_attribute.yml](https://github.com/ipcc-wgi/ESMValTool-AR6-OriginalCode-FinalFigures/blob/ar6_chapter_3_nathan/esmvaltool/recipes/recipe_gsat_attribute.yml)
 
-Diagnostic used: [diag_scripts/ipcc_ar6/attrib_blended.py](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/tree/ar6_chapter_3_nathan/esmvaltool/diag_scripts/ipcc_ar6/attrib_blended.py)
+Diagnostic used: [diag_scripts/ipcc_ar6/attrib_blended.py](https://github.com/ipcc-wgi/ESMValTool-AR6-OriginalCode-FinalFigures/tree/ar6_chapter_3_nathan/esmvaltool/diag_scripts/ipcc_ar6/attrib_blended.py)
 
 
 Expected image path:
@@ -63,8 +63,8 @@ Another non-esmvaltool preprocessed dataset is CNRM-CM6-1-5x5-sftlf.nc, a CNRM-C
  
 Software description:
 ---------------------
-- ESMValTool environment file: [IPCC_environments/esmvaltool_ar6_attribution_conda_environment.yml](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/main/IPCC_environments/esmvaltool_ar6_attribution_conda_environment.yml)
-- pip file: [IPCC_environments/esmvaltool_ar6_attribution_pip_environment.txt](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/main/IPCC_environments/esmvaltool_ar6_attribution_pip_environment.txt)
+- ESMValTool environment file: [IPCC_environments/esmvaltool_ar6_attribution_conda_environment.yml](https://github.com/ipcc-wgi/ESMValTool-AR6-OriginalCode-FinalFigures/blob/main/IPCC_environments/esmvaltool_ar6_attribution_conda_environment.yml)
+- pip file: [IPCC_environments/esmvaltool_ar6_attribution_pip_environment.txt](https://github.com/ipcc-wgi/ESMValTool-AR6-OriginalCode-FinalFigures/blob/main/IPCC_environments/esmvaltool_ar6_attribution_pip_environment.txt)
 - Other software used: cdo==1.5.3
 
 
